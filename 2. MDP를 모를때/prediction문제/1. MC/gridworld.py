@@ -42,7 +42,7 @@ class GridWorld():
             return True
         return False
     
-    def get_statue(self):
+    def get_state(self):
         return (self.x, self.y)
 
     def reset(self):
